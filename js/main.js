@@ -292,6 +292,18 @@
 	$('#appointment_time').timepicker();
 
 
+	// -------------------------------------------------------
+// Fix scroll freeze on mobile (menu-show class lock)
+// -------------------------------------------------------
+$('.navbar-toggler').on('click', function() {
+  $('body').toggleClass('menu-show');
+});
+
+// Remove scroll lock when a menu link is clicked
+$('.navbar-nav a, .nav-link').on('click', function() {
+  $('body').removeClass('menu-show');
+});
+
 
 
 })(jQuery);
