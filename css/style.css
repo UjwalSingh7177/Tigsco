@@ -7813,7 +7813,7 @@ h1, h2, h3, h4, h5,
         height: 300px; } }
 
 .ftco-services {
-  background: url(../images/sub.jpg) repeat;
+  background-color: #fac564;
   color: #5c3d03; }
   .ftco-services .overlay {
     position: absolute;
