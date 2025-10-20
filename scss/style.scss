@@ -1628,7 +1628,7 @@ textarea.form-control {
 
 //blocks 
 .block-20 {
-	overflow: hidden;
+	overflow: auto;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center;
@@ -1638,7 +1638,7 @@ textarea.form-control {
 	height: 270px;
 }
 .blog-entry{
-	overflow: hidden;
+	overflow: auto;
 	@include media-breakpoint-up(md){
 		margin-bottom: 30px;
 	}

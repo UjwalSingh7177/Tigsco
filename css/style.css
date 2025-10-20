@@ -178,7 +178,7 @@ img {
   border-style: none; }
 
 svg:not(:root) {
-  overflow: hidden; }
+  overflow: auto; }
 
 table {
   border-collapse: collapse; }
@@ -2477,7 +2477,7 @@ input[type="button"].btn-block {
 .collapsing {
   position: relative;
   height: 0;
-  overflow: hidden;
+  overflow: auto;
   -webkit-transition: height 0.35s ease;
   -o-transition: height 0.35s ease;
   transition: height 0.35s ease; }
@@ -2619,7 +2619,7 @@ input[type="button"].btn-block {
 .dropdown-divider {
   height: 0;
   margin: 0.5rem 0;
-  overflow: hidden;
+  overflow: auto;
   border-top: 1px solid #e9ecef; }
 
 .dropdown-item {
@@ -4122,7 +4122,7 @@ input[type="button"].btn-block {
   display: -ms-flexbox;
   display: flex;
   height: 1rem;
-  overflow: hidden;
+  overflow: auto;
   font-size: 0.75rem;
   background-color: #e9ecef;
   border-radius: 0.25rem; }
@@ -4344,7 +4344,7 @@ button.close {
   -webkit-appearance: none; }
 
 .modal-open {
-  overflow: hidden; }
+  overflow: auto; }
 
 .modal {
   position: fixed;
@@ -4354,7 +4354,7 @@ button.close {
   left: 0;
   z-index: 1050;
   display: none;
-  overflow: hidden;
+  overflow: auto;
   outline: 0; }
   .modal-open .modal {
     overflow-x: hidden;
@@ -4717,7 +4717,7 @@ button.close {
 .carousel-inner {
   position: relative;
   width: 100%;
-  overflow: hidden; }
+  overflow: auto; }
 
 .carousel-item {
   position: relative;
@@ -5253,7 +5253,7 @@ button.bg-dark:focus {
   display: block;
   width: 100%;
   padding: 0;
-  overflow: hidden; }
+  overflow: auto; }
   .embed-responsive::before {
     display: block;
     content: ""; }
@@ -6017,7 +6017,7 @@ button.bg-dark:focus {
   width: 1px;
   height: 1px;
   padding: 0;
-  overflow: hidden;
+  overflow: auto;
   clip: rect(0, 0, 0, 0);
   white-space: nowrap;
   border: 0; }
@@ -7075,7 +7075,7 @@ button.bg-dark:focus {
   white-space: nowrap !important; }
 
 .text-truncate {
-  overflow: hidden;
+  overflow: auto;
   -o-text-overflow: ellipsis;
   text-overflow: ellipsis;
   white-space: nowrap; }
@@ -7291,7 +7291,7 @@ span {
 .slider-item {
   position: relative;
   height: 100vh; /* Adjust height as needed */
-  overflow: hidden;
+  overflow: auto;
 }
 
 .slider-video {
@@ -8596,7 +8596,7 @@ textarea.form-control {
         margin-bottom: 5px; } }
 
 .block-20 {
-  overflow: hidden;
+  overflow: auto;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -8606,7 +8606,7 @@ textarea.form-control {
   height: 270px; }
 
 .blog-entry {
-  overflow: hidden; }
+  overflow: auto; }
   @media (min-width: 768px) {
     .blog-entry {
       margin-bottom: 30px; } }

@@ -149,7 +149,7 @@ img {
   border-style: none; }
 
 svg:not(:root) {
-  overflow: hidden; }
+  overflow: auto; }
 
 table {
   border-collapse: collapse; }
